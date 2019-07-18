@@ -1,0 +1,138 @@
+body {
+    margin: 0;
+    background-color: #f3efef;
+}
+
+/* header {
+    background-image: url("header.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: contain;
+    height: 100px;
+} */
+
+.navLink {
+    background-color: #6d4dbe;
+    color: #ffffff;
+}
+
+ul {
+    display: flex;
+    margin: 0;
+    padding: 0 0 0 14.5%;
+    color: white;
+}
+
+ul li {
+    padding: 10px 20px;
+    list-style: none;
+    cursor: pointer;
+    margin: 0 5px;
+}
+
+
+
+li:hover {
+    background-color: #a281ff;
+}
+
+.link {
+    background-color: #6d4dbe;
+}
+
+.propaganda-content {
+    margin: 1%;
+}
+
+.main {
+    margin: 1% 14.5%;
+    background-color: #ffffff;
+    min-height: calc(100vh - 50px);
+}
+
+hr {
+    margin: 0 1%;
+    border: none;
+    border-bottom: 1px solid #eee;
+}
+
+.title .left {
+    border-left: 4px solid;
+}
+
+.title {
+    padding: 3% 1% 1%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.dry-content,
+.salon-content {
+    display: flex;
+    margin: 1%;
+}
+
+.dry-item, .salon-item {
+    margin-right: 10px;
+    font-size: 12px
+}
+
+.dry-content img{
+    width: 100%;
+    height: 200px;
+}
+footer img,
+header img,
+.propaganda-content img {
+    width: 100%;
+}
+
+header {
+    margin-bottom: -4px;
+}
+
+.salon-warp {
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.recruitment-item-row {
+    display: flex;
+    margin: 1%;
+}
+
+.recruitment-item {
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+    border: 1px solid #eee;
+    padding: 20px;
+    flex-basis: 33.33%;
+    margin-bottom: 10px;
+}
+
+.recruitmet-time {
+    line-height: 200%;
+    color: #807A7A;
+}
+
+.recruitmet-type {
+    line-height: 200%;
+    color: #807A7A;
+}
+
+.detail {
+    color: #6D4DBE;
+}
+
+.lunbo-btn {
+    border: 1px solid #6D4DBE;
+    font-size: 12px;
+    padding: 0 4px;
+    margin: 3px;
+}
+
+.salon-img {
+    padding: 10px;
+    width: 100%;
+}
